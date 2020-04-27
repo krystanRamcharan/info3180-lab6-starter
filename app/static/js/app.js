@@ -41,6 +41,8 @@ Vue.component('app-footer', {
     }
 })
 
+Vue.config.devtools = true;
+
 
 let app = new Vue({
     el: '#app',
